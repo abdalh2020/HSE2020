@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern>ÙÙ ØªØ¹Ø±Ù Ø§ÙØ³ÙØ§ÙØ©</pattern>
+        <template>
+            
+            <reply>
+                <text>ÙØ¹Ù</text>
+                <postback>chooseÙØ¹Ù</postback>
+            </reply>
+            <reply>
+                <text>ÙØ§</text>
+                <postback></postback>
+            </reply>
+            <reply>
+                <text>Ø±Ø¨ÙØ§</text>
+                <postback></postback>
+            </reply>
+            <reply>
+                <text>Ø§Ø­ÙØ§ÙØ§</text>
+                <postback></postback>
+            </reply>
+        </template>
+    </category>
+    <category>
+        <pattern>chooseÙØ¹Ù</pattern>
+        <template>Ø§ÙØª ÙÙÙØ²</template>
+    </category>
+    <category>
+        <pattern></pattern>
+        <template>ÙØ¹Ù ÙØ³ØªØ¹Ø¯ ÙØ§ÙÙØ§Ø° Ø­ÙØ§ØªÙ</template>
+    </category>
+    
+    
+</aiml>
